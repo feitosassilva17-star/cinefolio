@@ -2,6 +2,20 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: '21',
+    title: 'Brasil 70: A Saga do Tri',
+    category: 'serie',
+    role: 'Assistente de pós-produção',
+    year: 2026,
+    duration: '5 episódios',
+    description: 'Série audiovisual sobre a saga do tricampeonato mundial do Brasil em 1970.',
+    synopsis: 'Brasil 70: A Saga do Tri revisita a história do tricampeonato mundial do Brasil.',
+    credits: "Direção: Quico Meirelles (2 episódios), Pedro Morelli (2 episódios) e Paulo Morelli (1 episódio)\nRoteiro: Felipe Sant'Angelo (head writer, 5 episódios), Maíra Oliveira (written by, 2 episódios; writer, 1 episódio), Rafael Dornellas (creator, 1 episódio), Álvaro Mamute (writer, 1 episódio) e Paulo Morelli\nElenco: Naná Xavier\nPós-produção: Samuel Feitosa — Assistente de pós-produção",
+    thumbnailUrl: 'https://i.imgur.com/cfQWJ7D.jpg',
+    videoUrl: 'https://www.youtube.com/watch?v=M4FspH3s9wo',
+    featured: true,
+  },
+  {
     id: '1',
     title: '171: O Sonho de Conquistar',
     category: 'curta',
@@ -13,7 +27,7 @@ export const projects: Project[] = [
     credits: 'Diretor: Samuel Feitosa\nRoteiro: Guilherme Guimarães\nFotografia: Wellington Lopes\nAssistente de Direção: Maria Vitoria Latorre\nCaptação de Som: Gabriel Frossard\nEditor de Som: Bruno Henrique Machado Gonçalves\nProdução: Rafael Roberto Delvalle, Bruno Henrique Machado Gonçalves\nDireção de Arte: Guilherme Guimarães, João Pedro Cortez\nMontagem: Wendel Bruno',
     thumbnailUrl: 'https://i.imgur.com/hsZNPwI.jpeg',
     videoUrl: 'https://www.youtube.com/watch?v=d4s4KICWfgw',
-    featured: true,
+    featured: false,
   },
   {
     id: '2',
